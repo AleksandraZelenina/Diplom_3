@@ -3,7 +3,7 @@ import io.qameta.allure.junit4.DisplayName;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 
-public class CreateUserTest extends TestBase {
+public class CreateUserTest extends BaseTest {
     @Test
     @DisplayName("Регистрация пользователя с валидными данными")
     @Description("Проверка, что можно зарегистрировать пользователя с валидными данными ")

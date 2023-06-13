@@ -2,7 +2,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 
-public class SingInProfileTest extends TestBase {
+public class SignInProfileTest extends BaseTest {
 
     @Test
     @DisplayName("Вход в профиль через кнопку 'Войти в аккаунт' на главной странице")

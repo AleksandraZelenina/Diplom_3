@@ -2,7 +2,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 
-public class GoToAndFromProfilePageTest extends TestBase {
+public class GoToAndFromProfilePageTest extends BaseTest {
     @Test
     @DisplayName("Переход в Личный кабинет неавторизованного пользователя")
     @Description("Проверка, что открывается раздел Личный кабинет(форма входа), когда пользователь не авторизован")

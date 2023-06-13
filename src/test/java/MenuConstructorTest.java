@@ -2,7 +2,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 
-public class MenuConstructorTest extends TestBase {
+public class MenuConstructorTest extends BaseTest {
     @Test
     @DisplayName("Переход к разделу 'Булки'")
     @Description("Проверка, что можно перейти в раздел 'Булки' ")

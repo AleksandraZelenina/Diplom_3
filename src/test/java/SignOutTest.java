@@ -2,7 +2,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 
-public class SingOutTest extends TestBase {
+public class SignOutTest extends BaseTest {
 
     @Test
     @DisplayName("Выход из аккаунта авторизованного пользователя")
